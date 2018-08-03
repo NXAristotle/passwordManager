@@ -6,4 +6,5 @@ target 'passwordManager' do
   pod 'MJRefresh'
   pod 'SDWebImage'
   pod 'SVProgressHUD'
+  pod 'MBProgressHUD'
 end

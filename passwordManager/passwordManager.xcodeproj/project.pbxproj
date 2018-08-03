@@ -8,10 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C78752ABE3ADA98FAA92044E /* libPods-passwordManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D66C056948C99B03F5101F /* libPods-passwordManager.a */; };
+		DAC16B2721141FB500192591 /* NXTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B2621141FB500192591 /* NXTools.mm */; };
+		DAC16B2C21141FCB00192591 /* NXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B2921141FCB00192591 /* NXRouter.m */; };
+		DAC16B2D21141FCB00192591 /* NXRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAC16B2A21141FCB00192591 /* NXRouter.plist */; };
+		DAC16B3521141FD700192591 /* UIBarButtonItem+NX.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B2F21141FD700192591 /* UIBarButtonItem+NX.m */; };
+		DAC16B3621141FD700192591 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B3021141FD700192591 /* UIColor+HexColor.m */; };
+		DAC16B3721141FD700192591 /* UIView+NX.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B3121141FD700192591 /* UIView+NX.m */; };
+		DAC16B3B21141FE500192591 /* NXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B3A21141FE500192591 /* NXNavigationViewController.m */; };
+		DAC16B66211436B000192591 /* NXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B56211436B000192591 /* NXTabBarController.m */; };
+		DAC16B68211436B000192591 /* NXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B5B211436B000192591 /* NXBaseViewController.m */; };
+		DAC16B69211436B000192591 /* UIBarButtonItem+NX.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B5D211436B000192591 /* UIBarButtonItem+NX.m */; };
+		DAC16B6A211436B000192591 /* NXBagValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B5E211436B000192591 /* NXBagValue.m */; };
+		DAC16B6B211436B000192591 /* NXTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B5F211436B000192591 /* NXTabBarButton.m */; };
+		DAC16B6C211436B000192591 /* NXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B60211436B000192591 /* NXTabBar.m */; };
+		DAC16B6F2114372100192591 /* NXPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B6E2114372100192591 /* NXPersonalCenterViewController.m */; };
+		DAC16B722114373A00192591 /* NXHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B712114373A00192591 /* NXHomeViewController.m */; };
+		DAC16B772114426900192591 /* NXPopAlertViewLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B752114426900192591 /* NXPopAlertViewLabel.m */; };
+		DAC16B7A21144AEB00192591 /* UIImage+KIM.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B7921144AEB00192591 /* UIImage+KIM.m */; };
+		DAC16B7E211462A800192591 /* NXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC16B7C211462A800192591 /* NXTestViewController.m */; };
+		DAC16B7F211462A800192591 /* NXTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC16B7D211462A800192591 /* NXTestViewController.xib */; };
 		DAEAC6B61EC8B63F00F88DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAC6B51EC8B63F00F88DAF /* main.m */; };
 		DAEAC6B91EC8B63F00F88DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAC6B81EC8B63F00F88DAF /* AppDelegate.m */; };
 		DAEAC6BC1EC8B63F00F88DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAC6BB1EC8B63F00F88DAF /* ViewController.m */; };
-		DAEAC6BF1EC8B63F00F88DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEAC6BD1EC8B63F00F88DAF /* Main.storyboard */; };
 		DAEAC6C11EC8B63F00F88DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEAC6C01EC8B63F00F88DAF /* Assets.xcassets */; };
 		DAEAC6CF1EC8B63F00F88DAF /* passwordManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAC6CE1EC8B63F00F88DAF /* passwordManagerTests.m */; };
 		DAEAC6DA1EC8B63F00F88DAF /* passwordManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEAC6D91EC8B63F00F88DAF /* passwordManagerUITests.m */; };
@@ -37,13 +55,49 @@
 /* Begin PBXFileReference section */
 		AE3DF73E50268783CC4BC1C6 /* Pods-passwordManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-passwordManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-passwordManager/Pods-passwordManager.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D66C056948C99B03F5101F /* libPods-passwordManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-passwordManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC16B2521141FB500192591 /* NXTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTools.h; sourceTree = "<group>"; };
+		DAC16B2621141FB500192591 /* NXTools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NXTools.mm; sourceTree = "<group>"; };
+		DAC16B2921141FCB00192591 /* NXRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXRouter.m; sourceTree = "<group>"; };
+		DAC16B2A21141FCB00192591 /* NXRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NXRouter.plist; sourceTree = "<group>"; };
+		DAC16B2B21141FCB00192591 /* NXRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXRouter.h; sourceTree = "<group>"; };
+		DAC16B2F21141FD700192591 /* UIBarButtonItem+NX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NX.m"; sourceTree = "<group>"; };
+		DAC16B3021141FD700192591 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		DAC16B3121141FD700192591 /* UIView+NX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NX.m"; sourceTree = "<group>"; };
+		DAC16B3221141FD700192591 /* UIBarButtonItem+NX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NX.h"; sourceTree = "<group>"; };
+		DAC16B3321141FD700192591 /* UIView+NX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NX.h"; sourceTree = "<group>"; };
+		DAC16B3421141FD700192591 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		DAC16B3921141FE500192591 /* NXNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXNavigationViewController.h; sourceTree = "<group>"; };
+		DAC16B3A21141FE500192591 /* NXNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXNavigationViewController.m; sourceTree = "<group>"; };
+		DAC16B3C2114238000192591 /* passwordManager-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "passwordManager-PrefixHeader.pch"; sourceTree = "<group>"; };
+		DAC16B56211436B000192591 /* NXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTabBarController.m; sourceTree = "<group>"; };
+		DAC16B58211436B000192591 /* NXBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBaseViewController.h; sourceTree = "<group>"; };
+		DAC16B59211436B000192591 /* NXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTabBarController.h; sourceTree = "<group>"; };
+		DAC16B5B211436B000192591 /* NXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBaseViewController.m; sourceTree = "<group>"; };
+		DAC16B5D211436B000192591 /* UIBarButtonItem+NX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NX.m"; sourceTree = "<group>"; };
+		DAC16B5E211436B000192591 /* NXBagValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXBagValue.m; sourceTree = "<group>"; };
+		DAC16B5F211436B000192591 /* NXTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTabBarButton.m; sourceTree = "<group>"; };
+		DAC16B60211436B000192591 /* NXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTabBar.m; sourceTree = "<group>"; };
+		DAC16B61211436B000192591 /* UIBarButtonItem+NX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NX.h"; sourceTree = "<group>"; };
+		DAC16B62211436B000192591 /* NXTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTabBarButton.h; sourceTree = "<group>"; };
+		DAC16B63211436B000192591 /* NXBagValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXBagValue.h; sourceTree = "<group>"; };
+		DAC16B64211436B000192591 /* NXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTabBar.h; sourceTree = "<group>"; };
+		DAC16B6D2114372100192591 /* NXPersonalCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXPersonalCenterViewController.h; sourceTree = "<group>"; };
+		DAC16B6E2114372100192591 /* NXPersonalCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXPersonalCenterViewController.m; sourceTree = "<group>"; };
+		DAC16B702114373A00192591 /* NXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXHomeViewController.h; sourceTree = "<group>"; };
+		DAC16B712114373A00192591 /* NXHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXHomeViewController.m; sourceTree = "<group>"; };
+		DAC16B752114426900192591 /* NXPopAlertViewLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXPopAlertViewLabel.m; sourceTree = "<group>"; };
+		DAC16B762114426900192591 /* NXPopAlertViewLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXPopAlertViewLabel.h; sourceTree = "<group>"; };
+		DAC16B7821144AEB00192591 /* UIImage+KIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KIM.h"; sourceTree = "<group>"; };
+		DAC16B7921144AEB00192591 /* UIImage+KIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KIM.m"; sourceTree = "<group>"; };
+		DAC16B7B211462A800192591 /* NXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXTestViewController.h; sourceTree = "<group>"; };
+		DAC16B7C211462A800192591 /* NXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXTestViewController.m; sourceTree = "<group>"; };
+		DAC16B7D211462A800192591 /* NXTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NXTestViewController.xib; sourceTree = "<group>"; };
 		DAEAC6B11EC8B63F00F88DAF /* passwordManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = passwordManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEAC6B51EC8B63F00F88DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAEAC6B71EC8B63F00F88DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DAEAC6B81EC8B63F00F88DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DAEAC6BA1EC8B63F00F88DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DAEAC6BB1EC8B63F00F88DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DAEAC6BE1EC8B63F00F88DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAEAC6C01EC8B63F00F88DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAEAC6C51EC8B63F00F88DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAEAC6CA1EC8B63F00F88DAF /* passwordManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = passwordManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +152,133 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DAC16B2121141E2500192591 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B3821141FE500192591 /* Base */,
+				DAC16B2221141F4700192591 /* Home */,
+				DAC16B2321141F4700192591 /* Personal */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DAC16B2221141F4700192591 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B702114373A00192591 /* NXHomeViewController.h */,
+				DAC16B712114373A00192591 /* NXHomeViewController.m */,
+				DAC16B7B211462A800192591 /* NXTestViewController.h */,
+				DAC16B7C211462A800192591 /* NXTestViewController.m */,
+				DAC16B7D211462A800192591 /* NXTestViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DAC16B2321141F4700192591 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B6D2114372100192591 /* NXPersonalCenterViewController.h */,
+				DAC16B6E2114372100192591 /* NXPersonalCenterViewController.m */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		DAC16B2421141FB500192591 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B2521141FB500192591 /* NXTools.h */,
+				DAC16B2621141FB500192591 /* NXTools.mm */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DAC16B2821141FCB00192591 /* NXRouter */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B2921141FCB00192591 /* NXRouter.m */,
+				DAC16B2A21141FCB00192591 /* NXRouter.plist */,
+				DAC16B2B21141FCB00192591 /* NXRouter.h */,
+			);
+			path = NXRouter;
+			sourceTree = "<group>";
+		};
+		DAC16B2E21141FD600192591 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B7821144AEB00192591 /* UIImage+KIM.h */,
+				DAC16B7921144AEB00192591 /* UIImage+KIM.m */,
+				DAC16B2F21141FD700192591 /* UIBarButtonItem+NX.m */,
+				DAC16B3021141FD700192591 /* UIColor+HexColor.m */,
+				DAC16B3121141FD700192591 /* UIView+NX.m */,
+				DAC16B3221141FD700192591 /* UIBarButtonItem+NX.h */,
+				DAC16B3321141FD700192591 /* UIView+NX.h */,
+				DAC16B3421141FD700192591 /* UIColor+HexColor.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DAC16B3821141FE500192591 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B55211436B000192591 /* Controller */,
+				DAC16B65211436B000192591 /* Model */,
+				DAC16B5C211436B000192591 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DAC16B55211436B000192591 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B3921141FE500192591 /* NXNavigationViewController.h */,
+				DAC16B3A21141FE500192591 /* NXNavigationViewController.m */,
+				DAC16B58211436B000192591 /* NXBaseViewController.h */,
+				DAC16B5B211436B000192591 /* NXBaseViewController.m */,
+				DAC16B59211436B000192591 /* NXTabBarController.h */,
+				DAC16B56211436B000192591 /* NXTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAC16B5C211436B000192591 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B5D211436B000192591 /* UIBarButtonItem+NX.m */,
+				DAC16B5E211436B000192591 /* NXBagValue.m */,
+				DAC16B5F211436B000192591 /* NXTabBarButton.m */,
+				DAC16B60211436B000192591 /* NXTabBar.m */,
+				DAC16B61211436B000192591 /* UIBarButtonItem+NX.h */,
+				DAC16B62211436B000192591 /* NXTabBarButton.h */,
+				DAC16B63211436B000192591 /* NXBagValue.h */,
+				DAC16B64211436B000192591 /* NXTabBar.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAC16B65211436B000192591 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAC16B73211440FE00192591 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B742114426900192591 /* NXPopAlertViewLabel */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DAC16B742114426900192591 /* NXPopAlertViewLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DAC16B752114426900192591 /* NXPopAlertViewLabel.m */,
+				DAC16B762114426900192591 /* NXPopAlertViewLabel.h */,
+			);
+			path = NXPopAlertViewLabel;
+			sourceTree = "<group>";
+		};
 		DAEAC6A81EC8B63F00F88DAF = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +304,15 @@
 		DAEAC6B31EC8B63F00F88DAF /* passwordManager */ = {
 			isa = PBXGroup;
 			children = (
+				DAC16B2121141E2500192591 /* Classes */,
 				DAEAC6B71EC8B63F00F88DAF /* AppDelegate.h */,
 				DAEAC6B81EC8B63F00F88DAF /* AppDelegate.m */,
 				DAEAC6BA1EC8B63F00F88DAF /* ViewController.h */,
 				DAEAC6BB1EC8B63F00F88DAF /* ViewController.m */,
-				DAEAC6BD1EC8B63F00F88DAF /* Main.storyboard */,
+				DAC16B73211440FE00192591 /* Lib */,
+				DAC16B2E21141FD600192591 /* Category */,
+				DAC16B2821141FCB00192591 /* NXRouter */,
+				DAC16B2421141FB500192591 /* Tools */,
 				DAEAC6C01EC8B63F00F88DAF /* Assets.xcassets */,
 				DAEAC6C51EC8B63F00F88DAF /* Info.plist */,
 				DAEAC6B41EC8B63F00F88DAF /* Supporting Files */,
@@ -139,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				DAEAC6B51EC8B63F00F88DAF /* main.m */,
+				DAC16B3C2114238000192591 /* passwordManager-PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,7 +411,7 @@
 		DAEAC6A91EC8B63F00F88DAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = nxaristotle;
 				TargetAttributes = {
 					DAEAC6B01EC8B63F00F88DAF = {
@@ -271,7 +457,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEAC6C11EC8B63F00F88DAF /* Assets.xcassets in Resources */,
-				DAEAC6BF1EC8B63F00F88DAF /* Main.storyboard in Resources */,
+				DAC16B7F211462A800192591 /* NXTestViewController.xib in Resources */,
+				DAC16B2D21141FCB00192591 /* NXRouter.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,9 +524,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC16B6A211436B000192591 /* NXBagValue.m in Sources */,
+				DAC16B722114373A00192591 /* NXHomeViewController.m in Sources */,
+				DAC16B3721141FD700192591 /* UIView+NX.m in Sources */,
+				DAC16B69211436B000192591 /* UIBarButtonItem+NX.m in Sources */,
+				DAC16B3621141FD700192591 /* UIColor+HexColor.m in Sources */,
+				DAC16B7A21144AEB00192591 /* UIImage+KIM.m in Sources */,
 				DAEAC6BC1EC8B63F00F88DAF /* ViewController.m in Sources */,
+				DAC16B2721141FB500192591 /* NXTools.mm in Sources */,
+				DAC16B6C211436B000192591 /* NXTabBar.m in Sources */,
+				DAC16B772114426900192591 /* NXPopAlertViewLabel.m in Sources */,
+				DAC16B68211436B000192591 /* NXBaseViewController.m in Sources */,
+				DAC16B6B211436B000192591 /* NXTabBarButton.m in Sources */,
+				DAC16B3521141FD700192591 /* UIBarButtonItem+NX.m in Sources */,
+				DAC16B6F2114372100192591 /* NXPersonalCenterViewController.m in Sources */,
 				DAEAC6B91EC8B63F00F88DAF /* AppDelegate.m in Sources */,
+				DAC16B3B21141FE500192591 /* NXNavigationViewController.m in Sources */,
+				DAC16B2C21141FCB00192591 /* NXRouter.m in Sources */,
 				DAEAC6B61EC8B63F00F88DAF /* main.m in Sources */,
+				DAC16B7E211462A800192591 /* NXTestViewController.m in Sources */,
+				DAC16B66211436B000192591 /* NXTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,17 +578,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		DAEAC6BD1EC8B63F00F88DAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAEAC6BE1EC8B63F00F88DAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		DAEAC6DC1EC8B63F00F88DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -396,15 +589,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -427,7 +628,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -445,15 +646,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -470,7 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -485,8 +694,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = D25ER75697;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/passwordManager/passwordManager-PrefixHeader.pch";
 				INFOPLIST_FILE = passwordManager/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nxaristotle.passwordManager.passwordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,8 +712,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = D25ER75697;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/passwordManager/passwordManager-PrefixHeader.pch";
 				INFOPLIST_FILE = passwordManager/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nxaristotle.passwordManager.passwordManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
