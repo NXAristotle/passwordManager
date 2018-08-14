@@ -16,13 +16,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    //    self.navigationController.title = @"个人中心";
+    
+        self.navigationItem.title = @"个人中心";
+#warning 这个位置设置会crash，待解决
+//    self.title = @"个人中心";
+    
+    
     self.view.backgroundColor = [UIColor purpleColor];
 
     UIView *testview = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 200, 300)];
     testview.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:testview];
-//    self.navigationController.title = @"个人中心";
-//     self.title = @"个人中心";
+
     // Do any additional setup after loading the view.
 }
 

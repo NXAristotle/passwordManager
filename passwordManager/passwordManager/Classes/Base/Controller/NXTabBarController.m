@@ -129,15 +129,6 @@
         }
     }
     
-    
-//    for (UIView *subView in self.tabBar.subviews) {
-//        
-//                       if ([subView isKindOfClass:[UIControl class]]) {
-//                    [subView removeFromSuperview];
-//                           NXLog(@"执行了————————————————————-");
-//                }
-//            }
-    
 }
 
 - (void)selectIndex:(NSInteger)index {

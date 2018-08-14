@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"首页";
     
     UIButton *testBtn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 200, 300)];
     testBtn.backgroundColor = [UIColor blueColor];
